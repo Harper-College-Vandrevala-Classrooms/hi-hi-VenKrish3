@@ -15,7 +15,8 @@ int main()
 	cout << "Please input the second string" << endl;
 	cin >> str2;
 	cout << endl;
-	cout << strcmp_case_insensitive(str1,str2);
+	
+	cout << "The comparison of " << str1 << " and " << str2 << " is " << strcmp_case_insensitive(str1,str2);
 }
 	
 int strcmp_case_insensitive(string s1, string s2)
