@@ -11,9 +11,9 @@ int main()
 	string str1, str2;
 	
 	cout << "Please input the first string" << endl;
-	cin >> str1;
+	getline(cin,str1,'\n');
 	cout << "Please input the second string" << endl;
-	cin >> str2;
+	getline(cin,str2,'\n');
 	cout << endl;
 	
 	cout << "The comparison of " << str1 << " and " << str2 << " is " << strcmp_case_insensitive(str1,str2);
